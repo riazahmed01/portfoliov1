@@ -160,3 +160,73 @@ nav {
         margin: 10px 0;
     }
 }
+
+/*Education section*/
+.education, .certs {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    text-align: left;
+    justify-content: center;
+}
+
+.education .text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.education h1, .certs h1 {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.education h2, .certs h2 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.education p, .certs p {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.education img, .certs img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 50px;
+}
+
+/*Certification section*/
+.certs{
+    margin-top: 30px;
+}
+
+.certbox {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    padding: 20px;
+    margin: 20px;
+}
+
+.image-container {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.image-container img {
+    max-width: 100px;
+    height: auto;
+}
+
+.certcontent {
+    flex: 1;
+}
+
+.certs h1{
+    margin-left: 15px;
+}
+
