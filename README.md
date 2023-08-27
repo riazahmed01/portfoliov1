@@ -1,5 +1,5 @@
 # My Portfolio
-This is my portfolio page version one. This is my first attempt at it and I will work on this more in the future so the code is cleaner and more readable.
+This is my portfolio page version one. This is my first attempt at it and I will work on this more in the future so the code is cleaner and more readable. I used only HTML and CSS for this. In my next version I hope to incorporate what I learn about JavaScript, Node and React.
 
 Pages compleated:
 - [x] Home Page
@@ -15,5 +15,5 @@ Pages compleated:
 
 ## Resources:
 - Undraw for images
-- Google images for icons
+- Google images and icons8 for icons
 
