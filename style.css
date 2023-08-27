@@ -76,7 +76,7 @@ nav {
 }
 
 /* Introduction section */
-.intro {
+.intro, .projectintro {
     display: flex;
     align-items: center;
     padding: 40px;
@@ -84,18 +84,18 @@ nav {
     justify-content: center;
 }
 
-.intro .text {
+.intro .text, .projectintro .text {
     flex: 1;
     padding-right: 20px;
 }
 
-.intro h1 {
+.intro h1, .projectintro h1 {
     font-weight: 700;
     font-size: 50px;
     margin-bottom: 10px;
 }
 
-.intro p {
+.intro p, .projectintro p {
     font-weight: 400;
     font-size: 30px;
     margin-bottom: 20px;
@@ -108,7 +108,7 @@ nav {
 }
 
 /* Contact and GitHub buttons */
-.contact, .github {
+.contact, .github, .projectbtn, .github-visit {
     background-color: #6C63FF;
     color: white;
     border: none;
@@ -121,7 +121,7 @@ nav {
     transition: background-color 0.3s;
 }
 
-.contact:hover, .github:hover {
+.contact:hover, .github:hover, .projectbtn:hover, .github-visit:hover {
     background-color: #6b63ff81;
 }
 
@@ -230,3 +230,19 @@ nav {
     margin-left: 15px;
 }
 
+
+.projectintro img{
+    height: 600px;
+    width: auto;
+    margin-left: 50px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.project-link :hover{
+    text-decoration: none;
+    color: #6b63ff;
+}
