@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set up default font family and size */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+/* Background color */
+body {
+    background-color: #ffffed;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f5edff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navLeft h1 {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+
+.navRight ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navRight ul li {
+    margin: 0 20px;
+}
+
+.navRight ul li a {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    font-weight: 600;
+}
+
+.navRight ul li a::before {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-image: linear-gradient(#6b63ff, #6b63ff);
+    background-size: 0% 100%;
+    background-position: 0 100%;
+    transition: background-size 0.1s, background-position 0.3s;
+}
+
+.navRight ul li a:hover::before {
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+}
+
+/* Content container */
+.content {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1200px;
+}
+
+/* Introduction section */
+.intro {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    text-align: left;
+    justify-content: center;
+}
+
+.intro .text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.intro h1 {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.intro img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 50px;
+}
+
+/* Contact and GitHub buttons */
+.contact, .github {
+    background-color: #6C63FF;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.contact:hover, .github:hover {
+    background-color: #6b63ff81;
+}
+
+/* Fullstack section */
+.fullstack {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    height: auto;
+}
+
+.fullstack p {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.fullstack-img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 50px;
+}
+
+.fullstack .text img {
+    height: auto;
+    width: 40px;
+    padding: 10px;
+    align-items: center;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .contact, .github {
+        padding: 10px 20px;
+        margin: 10px 0;
+    }
+}
